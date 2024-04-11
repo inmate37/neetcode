@@ -50,7 +50,7 @@ class Solution:
 
 
 class Test(unittest.TestCase):
-    def run(self):
+    def test(self):
         solution = Solution()
 
         result = solution.twoSum([2,7,11,15], 9)
