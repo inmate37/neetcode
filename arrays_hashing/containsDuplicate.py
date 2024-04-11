@@ -40,7 +40,7 @@ class Solution:
 
 
 class Test(unittest.TestCase):
-    def run(self):
+    def test(self):
         solution = Solution()
 
         result = solution.containsDuplicate([1,2,3,1])
